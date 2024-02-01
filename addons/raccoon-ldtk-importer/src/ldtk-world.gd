@@ -26,7 +26,6 @@ static func create_world(
 		for node in level.get_children():
 			Util.recursive_set_owner(node, world, null)
 
-
 	world = PostImport.run_post_import(
 		world,
 		options.world_post_import_script,
